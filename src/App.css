@@ -1,0 +1,4 @@
+.app-items{
+  display: grid;
+  grid-template-columns: 500px auto;
+}

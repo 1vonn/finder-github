@@ -1,0 +1,37 @@
+.user-profile{
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+}
+.user-profile img{
+    width: 20rem;
+    border-radius: 1rem;
+}
+.user-profile h3{
+    font-size: 30px;
+    color:rgb(7,15,43) ;
+    margin: 0;
+}
+.user-profile h2 {
+    margin: 0;
+    color:rgb(37, 56, 126) ;
+}
+ .user-profile p{
+    font-size: 20px;
+    color: rgb(37, 56, 126);
+    margin: .2rem;
+    max-width: 18rem;
+
+}
+.user-profile a{
+    width: 15rem;
+    background-color: rgb(7,15,43);
+    padding: .5rem;
+    text-align: center;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    color: azure;
+    text-decoration: none;
+}

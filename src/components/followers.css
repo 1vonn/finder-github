@@ -1,0 +1,49 @@
+/* followers styling */
+.followers {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .followers-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .follower-item {
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: 150px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .follower-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .follower-name {
+    display: block;
+    margin-top: 5px;
+     font-size: 1.5rem;
+    padding: .5rem;
+    text-align: center;
+    color:rgb(7,15,43);
+    text-decoration: none;
+  }
+  .follower-item a {
+    width: 10rem;
+    height: 2rem;
+    background-color: rgb(7,15,43);
+    text-align: center;
+    border-radius: .5rem;
+    color: white;
+  }
